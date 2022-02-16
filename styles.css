@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Franklin Gothic Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Franklin Gothic Regular'), url('fonts/FranklinGothic.woff') format('woff');
+}
+
 html {
   height: 100%;
 }
@@ -12,12 +19,20 @@ body {
   align-items: center;
 }
 
-h1 {
+h1{
   color: red;
+  font-family: 'Franklin Gothic Regular';
+}
+
+a{
+  color: red;
+  font-family: 'Franklin Gothic Regular';
+  text-decoration: none;
+  font-size: 2em;
 }
 
 .logo {
-  width: 20%;
+  width: 25%;
 }
 
 .banner {
